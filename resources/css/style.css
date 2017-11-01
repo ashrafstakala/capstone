@@ -1,0 +1,31 @@
+html {
+ font-size: 16px;
+}
+body {
+  font-family: Helvetica;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+nav {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  background-color: cadetblue;
+}
+.container {
+  width: 960px;
+  margin: auto;
+}
+.container img {
+  height: 4rem;
+}
+div span {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
