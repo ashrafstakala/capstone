@@ -24,9 +24,16 @@ nav {
   width: 1104px;
   margin: auto;
 }
-.logo span {
-  font-size: 2rem;
-  text-transform: uppercase;
+.logo {
+  height: 2rem;
+}
+.logo .colmar {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.logo .academy {
+  color:#989898;
+  font-size: 1.5rem;
 }
 nav div {
   display: flex;
@@ -85,6 +92,7 @@ nav div {
 }
 .information-image p {
   padding-bottom: 2rem;
+  font-size: 0.9rem;
 }
 .headlines {
   margin-top: 1rem;
@@ -193,6 +201,7 @@ nav div {
 .exhibit-copy p {
   margin-top: 1rem;
   margin-bottom: 2rem;
+  font-size: 0.9rem;
 }
 .exhibit-headlines {
   margin-top: 0rem;
