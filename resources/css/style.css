@@ -92,7 +92,6 @@ nav div {
   flex-direction: column;
 }
 .story {
-  border-bottom: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +102,6 @@ nav div {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid black;
   min-height: 168px;
 }
 .story-image img {
@@ -167,8 +165,16 @@ nav div {
   padding-top: 1rem;
   font-size: 0.9rem;
 }
+.exhibit {
+  display: flex;
+  margin-top: 4rem;
+}
+.exhibit-main {
+  width: 90%;
+  height: auto;
+}
 .exhibit-main video {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 .header {
@@ -178,7 +184,58 @@ nav div {
   font-weight: bold;
   color: #4A4A4A;
 }
-
+.exhibit-copy h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+.exhibit-copy p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.exhibit-headlines {
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.exhibit-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 168px;
+  padding-left: 1.5rem;
+}
+.exhibit-story-guest {
+  background-color:#E7E7E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 168px;
+  padding-left: 1.5rem;
+}
+.exhibit-story-image img {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+.exhibit-story-image {
+  width: 35%;
+  padding-right: 1rem;
+}
+.exhibit-story-copy {
+  max-width: 50%;
+  padding-right: 1.5rem;
+}
+.exhibit-story-copy h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.exhibit-story-copy h4 {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
 
 
 
