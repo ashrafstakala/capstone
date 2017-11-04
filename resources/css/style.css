@@ -142,10 +142,16 @@ nav div {
   margin-top: 2rem;
   background-color: #E7E7E7;
 }
+.featured-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#4A4A4A;
+  margin: 2rem auto; 
+}
 .courses {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 
+  margin-bottom: 2rem;
 }
 .subject {
   width: 30%;
@@ -192,6 +198,9 @@ nav div {
   font-size: 1.5rem;
   font-weight: bold;
   color: #4A4A4A;
+}
+.featured-header {
+  text-align: center;
 }
 .exhibit-copy h2 {
   margin-top: 1.5rem;
