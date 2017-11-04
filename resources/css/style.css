@@ -261,7 +261,7 @@ nav {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px dotted black;
+  border-top: 1px dotted #4A4A4A;
   padding-top: 1rem;
   padding-bottom: 1rem;
   align-items: center;
@@ -281,4 +281,80 @@ nav {
   .mobile-menu {
     display: none;
   }
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 560px) {
+  .colmar, .academy {
+    display: none;
+  }
+  .menu ul li {
+    display: none;
+  }
+  .mobile-menu li{
+    display: inline-block;
+  }
+ .container {
+   display: flex;
+   width: 100%;
+}
+.top-container, .information, .featured, .exhibit {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  }
+.learn-image img {
+  width: 100%;
+  margin: auto;
+}
+.information-image {
+  display: none;
+}
+.information-image-copy {
+  width: 100%;
+  margin: auto;
+}
+.exhibit-headlines {
+  display: none;
+}
+.subject-image {
+  display: none;
+}
+.subject-copy {
+  width: 100%;
+}
+.subject-copy h3, h4 {
+  display: none;
+}
+.courses {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.exhibit-main {
+  width: 100%;
+  margin: auto auto 1.5rem auto;
+}
+.subject {
+  width: 100%;
+  height: auto;
+  margin: 1rem 1rem;
+  padding: 1rem 0 1.5rem 0;
+  background-color: #E7E7E7;
+}
+.featured-header {
+  display: flex;
+  justify-content: center;
+}
+.featured {
+  background-color: white;
+}
+.exhibit-copy {
+  display: none;
+}
+.exhibit-header {
+  display: flex;
+  justify-content: center;
+}
+
 }
