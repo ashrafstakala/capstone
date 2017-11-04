@@ -236,8 +236,22 @@ nav div {
   font-size: 0.8rem;
   padding-bottom: 1rem;
 }
-
-
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dotted black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+.copyright {
+  margin-left: 1.5rem;
+  font-size: 0.8rem;
+}
+.footer-links {
+  margin-right: 1.5rem;
+  font-size: 0.8rem;
+}
 
 /* Desktop Responsive */
 @media only screen and (min-width: 960px) {
