@@ -167,7 +167,17 @@ nav div {
   padding-top: 1rem;
   font-size: 0.9rem;
 }
-
+.exhibit-main video {
+  width: 60%;
+  height: auto;
+}
+.header {
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4A4A4A;
+}
 
 
 
