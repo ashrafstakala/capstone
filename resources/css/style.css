@@ -86,10 +86,51 @@ nav div {
 .information-image p {
   padding-bottom: 2rem;
 }
-
-
-
-
+.headlines {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.story {
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 168px;
+}
+.story-guest {
+  background-color:#c0c0c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  min-height: 168px;
+}
+.story-image img {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+.story-image {
+  width: 35%;
+  padding-right: 1rem;
+}
+.story-copy {
+  max-width: 50%;
+  padding-right: 2rem;
+}
+.story-copy h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.story-copy h4 {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+.story-copy a {
+  font-size: 0.8rem;
+}
 /* Desktop Responsive */
 @media only screen and (min-width: 960px) {
   .mobile-menu {
