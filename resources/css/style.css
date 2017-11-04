@@ -291,7 +291,8 @@ nav {
   .menu ul li {
     display: none;
   }
-  .mobile-menu li{
+  .mobile-menu {
+    width: 100%;
     display: inline-block;
   }
  .container {
@@ -355,6 +356,34 @@ nav {
 .exhibit-header {
   display: flex;
   justify-content: center;
+}
+.learn-copy {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.learn-copy h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.learn-copy h4 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.learn-copy span {
+  width: 100%;
+  margin: auto;
+}
+.learn-copy span {
+  padding: 1rem;
+  width: 80%;
+  background-color: #A2A2A2;
+  font-size: 1.2rem;
 }
 
 }
