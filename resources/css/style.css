@@ -385,5 +385,24 @@ nav {
   background-color: #A2A2A2;
   font-size: 1.2rem;
 }
+.headlines {
+  width: 100%;
+
+}
+.story-image {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.story-image img {
+  width: 100%;
+  margin: auto;
+}
+.story-copy {
+  width: 100%;
+}
+.story-guest {
+  background-color: white;
+}
 
 }
