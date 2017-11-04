@@ -3,6 +3,7 @@ html {
 }
 body {
   font-family: Helvetica;
+  margin: 0;
 }
 nav div {
   display: flex;
@@ -11,24 +12,19 @@ nav div {
 ul li {
   display: inline;
   padding: 0 1rem;
-  font-weight: bold;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #white;
-  border-bottom: 1px solid black;
+  background-color: white;
   height: 4rem;
 }
 .container {
-  width: 1024px;
+  width: 1104px;
   margin: auto;
 }
-.container img {
-  height: 3rem;
-}
-div span {
+.logo span {
   font-size: 2rem;
   text-transform: uppercase;
 }
@@ -36,10 +32,42 @@ nav div {
   display: flex;
   align-items: center;
 }
-
+.top-container {
+  display: flex;
+  background-color: #c0c0c0;
+}
+.learn-image img {
+  width: 662px;
+  height: auto;
+  margin: 2rem 1.5rem;
+}
+.learn-copy {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: 12rem 0;
+}
+.learn-copy h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 2.5rem;
+  color: #2F2E2E;
+}
+.learn-copy h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.learn-copy span {
+  width: 80%;
+  padding: 0.5rem 0;
+  background-color: #2F2E2E;
+  color: white;
+  text-align: center;
+}
 
 /* Desktop Responsive */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 960px) {
   .mobile-menu {
     display: none;
   }
