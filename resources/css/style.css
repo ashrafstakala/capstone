@@ -2,7 +2,7 @@ html {
  font-size: 16px;
 }
 body {
-  font-family: Helvetica;
+  font-family: 'Lato', Helvetica;
   margin: 0;
 }
 nav div {
@@ -56,14 +56,16 @@ nav div {
   margin: 12rem 0;
 }
 .learn-copy h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   padding-right: 2.5rem;
   color: #4A4A4A;
+  margin-bottom: 1rem;
 }
 .learn-copy h4 {
   font-size: 1rem;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 .learn-copy span {
   width: 80%;
@@ -85,14 +87,14 @@ nav div {
   width: 662px;
 }
 .information-image-copy h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   padding-bottom: 1.5rem;
   color: #4A4A4A;
 }
 .information-image p {
   padding-bottom: 2rem;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 .headlines {
   margin-top: 1rem;
@@ -126,16 +128,16 @@ nav div {
   padding-right: 2rem;
 }
 .story-copy h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 1rem;
 }
 .story-copy h4 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-bottom: 1rem;
 }
 .story-copy a {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: dodgerblue;
 }
 .featured {
@@ -168,18 +170,20 @@ nav div {
 }
 .subject-copy h2 {
   margin-top: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color:#4A4A4A;
 }
 .subject-copy h3 {
   margin-top: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-top: 0.5rem;
+  color:#4A4A4A;
 }
 .subject-copy h4 {
   padding-top: 1rem;
   font-size: 0.9rem;
+  color:#4A4A4A;
 }
 .exhibit {
   display: flex;
@@ -196,23 +200,25 @@ nav div {
 .exhibit-header {
   text-align: center;
   margin: 2rem auto;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #4A4A4A;
 }
 .featured-header {
   text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .exhibit-copy h2 {
   margin-top: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   color: #4A4A4A;
 }
 .exhibit-copy p {
   margin-top: 1rem;
   margin-bottom: 2rem;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 .exhibit-headlines {
   margin-top: 0rem;
@@ -248,12 +254,12 @@ nav div {
   padding-right: 1.5rem;
 }
 .exhibit-story-copy h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 1rem;
 }
 .exhibit-story-copy h4 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-bottom: 1rem;
 }
 .footer {
@@ -263,6 +269,7 @@ nav div {
   padding-top: 1rem;
   padding-bottom: 1rem;
   align-items: center;
+  font-family: Helvetica;
 }
 .copyright {
   margin-left: 1.5rem;
