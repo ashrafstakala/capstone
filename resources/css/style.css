@@ -136,6 +136,7 @@ nav div {
 }
 .story-copy a {
   font-size: 0.8rem;
+  color: dodgerblue;
 }
 .featured {
   display: flex;
