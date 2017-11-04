@@ -35,10 +35,6 @@ nav {
   color:#989898;
   font-size: 1.5rem;
 }
-nav div {
-  display: flex;
-  align-items: center;
-}
 .top-container {
   display: flex;
   background-color: #E7E7E7;
