@@ -163,6 +163,7 @@ nav div {
   margin-top: 1rem;
   font-size: 1.3rem;
   font-weight: bold;
+  color:#4A4A4A;
 }
 .subject-copy h3 {
   margin-top: 0.5rem;
@@ -175,7 +176,7 @@ nav div {
 }
 .exhibit {
   display: flex;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .exhibit-main {
   width: 90%;
@@ -185,7 +186,7 @@ nav div {
   width: 100%;
   height: auto;
 }
-.header {
+.exhibit-header {
   text-align: center;
   margin: 2rem auto;
   font-size: 1.5rem;
