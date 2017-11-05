@@ -278,7 +278,10 @@ nav {
 
 /* Desktop Responsive */
 @media only screen and (min-width: 960px) {
-  .mobile-menu {
+  .mobile-menu, .guest-lecture-mobile {
+    display: none;
+  }
+  .mobile-image {
     display: none;
   }
 }
@@ -324,7 +327,8 @@ nav {
 .subject-copy {
   width: 100%;
 }
-.subject-copy h3, h4 {
+.subject-copy h3,
+.subject-copy h4 {
   display: none;
 }
 .courses {
@@ -373,7 +377,7 @@ nav {
 .learn-copy h4 {
   width: 100%;
   height: auto;
-  margin: auto;
+  margin-left: 2rem;
 }
 .learn-copy span {
   width: 100%;
@@ -387,22 +391,40 @@ nav {
 }
 .headlines {
   width: 100%;
-
+  display: block;
 }
 .story-image {
+  min-width: 100%;
   width: 100%;
   height: auto;
   display: inline-block;
+  padding: 0 0 0 0;
 }
 .story-image img {
   width: 100%;
   margin: auto;
 }
 .story-copy {
-  width: 100%;
+  display: block;
+  margin: 2rem 0 2rem 1rem;
+  max-width: 100%;
 }
 .story-guest {
   background-color: white;
+  display: block;
 }
-
+.desktop-image {
+  display: none;
+}
+.mobile-image {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.story {
+  width: 100%;
+  display: block;
+}
+.guest-lecture-desktop {
+  display: none;
 }
