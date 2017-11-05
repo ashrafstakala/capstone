@@ -291,12 +291,17 @@ nav {
   .colmar, .academy {
     display: none;
   }
-  .menu ul li {
-    display: none;
-  }
   .mobile-menu {
     width: 100%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .mobile-menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
  .container {
    display: flex;
@@ -380,14 +385,11 @@ nav {
   margin-left: 2rem;
 }
 .learn-copy span {
-  width: 100%;
-  margin: auto;
-}
-.learn-copy span {
-  padding: 1rem;
+  padding: 0.8rem;
   width: 80%;
   background-color: #A2A2A2;
   font-size: 1.2rem;
+  margin: auto;
 }
 .headlines {
   width: 100%;
@@ -425,6 +427,7 @@ nav {
   width: 100%;
   display: block;
 }
-.guest-lecture-desktop {
+.guest-lecture-desktop, .desktop-menu, .logo {
   display: none;
+}
 }
